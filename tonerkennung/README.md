@@ -73,4 +73,5 @@ Mikrofone
 ---------
 
 Das blaue Mirofon ist ein [B86"New Electronic Brick Sound Sensor Microphone Mic Module for Arduino](http://www.aliexpress.com/snapshot/6363719284.html).
-Das rote Mikrofon ist ein [High Sensitivity Sound Microphone Sensor Detection Module For Arduino AVR PIC](http://www.aliexpress.com/snapshot/6349001835.html).
+
+Das rote Mikrofon ist ein [High Sensitivity Sound Microphone Sensor Detection Module For Arduino AVR PIC](http://www.aliexpress.com/snapshot/6349001835.html). Es hat in dem blauen Kasten einen verstellbaren Widerstand, mit dem man die Spannung des A0-Pins bei Stille enstellen kann. Wenn das Mikrofon taub ist, sollte man sich mit `analogRead()` die Spannung ausgeben lassen und dran rum drehen, bis es besser wird. Durchaus auch 20 Umdrehungen, bis es um 512 ist. 
