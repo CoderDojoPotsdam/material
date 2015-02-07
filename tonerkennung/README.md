@@ -27,9 +27,9 @@ Das rote Mikrofon hat noch einen D0-Ausgang. Der ist `LOW` oder `HIGH` je nach d
 Funktionen
 ----------
 
-Eine Beschreibung der Funktionen befindet sich in der [Datei](wave_detection/wave_detection.ino)
+Eine Beschreibung der Funktionen befindet sich in der [wave_detection.ino](wave_detection/wave_detection.ino).
 
-    setup_volume_recognition(A0);
+    setup_frequency_recognition(A0);
 
 muss **ein Mal** ein `setup()` aufgerufen werden. Es sagt, dass das Mikrofon an pin A0 angeschlossen wird.
 
@@ -41,7 +41,7 @@ kann man sich die erwartete [Frequenz](http://de.wikipedia.org/wiki/Frequenz) ho
 
     get_intensity_squared()
 
-Nimmt vom Mikrofon auf und gibt die [Schallintensität](https://de.wikipedia.org/wiki/Schallintensit%C3%A4t) quadriert zurück.
+nimmt vom Mikrofon auf und gibt die [Schallintensität](https://de.wikipedia.org/wiki/Schallintensit%C3%A4t) quadriert zurück.
 
     sqrt(get_intensity_squared())
 
@@ -63,15 +63,21 @@ Mit
 
 kann man auf dem Arduino auf dem Pin 8 einen Ton von 400Hz erzeugen.
 
-
 Digital Signal Processing (DSP) 
 -------------------------------
 
-Wer erfahren möchte, wie man eine Welle erkennt, kann sich dieses Buch durchlesen: [dspguide.com](http://www.dspguide.com/ch6.htm). Die Fast Fourier Transformation mach für viele Frequenzen, was hier nur mit einer gemacht wird.
+Wer erfahren möchte, wie man eine Welle erkennt, kann sich dieses Buch durchlesen: [dspguide.com](http://www.dspguide.com/ch6.htm). Die Fast Fourier Transformation macht für viele Frequenzen, was hier nur mit einer gemacht wird.
 
 Mikrofone
 ---------
 
 Das blaue Mirofon ist ein [B86"New Electronic Brick Sound Sensor Microphone Mic Module for Arduino](http://www.aliexpress.com/snapshot/6363719284.html).
 
-Das rote Mikrofon ist ein [High Sensitivity Sound Microphone Sensor Detection Module For Arduino AVR PIC](http://www.aliexpress.com/snapshot/6349001835.html). Es hat in dem blauen Kasten einen verstellbaren Widerstand, mit dem man die Spannung des A0-Pins bei Stille enstellen kann. Wenn das Mikrofon taub ist, sollte man sich mit `analogRead()` die Spannung ausgeben lassen und dran rum drehen, bis es besser wird. Durchaus auch 20 Umdrehungen, bis es um 512 ist. 
+Das rote Mikrofon ist ein [High Sensitivity Sound Microphone Sensor Detection Module For Arduino AVR PIC](http://www.aliexpress.com/snapshot/6349001835.html). Es hat in dem blauen Kasten einen verstellbaren Widerstand, mit dem man die Spannung des A0-Pins bei Stille einstellen kann. Wenn das Mikrofon taub ist, sollte man sich mit `analogRead()` die Spannung ausgeben lassen und dran rum drehen, bis es besser wird. Durchaus auch 20 Umdrehungen, bis es um 512 ist. 
+
+Thanks
+------
+
+Thanks go to Paul O'Dowd for the [blogpost on "Arduino, detect 38khz with a Bandpass software digital filter"](http://www.paulodowd.com/2013/06/arduino-38khz-bandpass-software-digital.html).
+
+
