@@ -3,7 +3,7 @@ Tonerkennung
 
 ![](bilder/mikrofone.jpg)
 
-Der Beispielquelltext befindet sich in der Datei [wave_detection.ino](wave_detection/wave_detection.ino). Er muss verändert werden und in eine neue Datei abgespeichert werden.
+Der Beispielquelltext befindet sich in der Datei [wave_detection.ino](wave_detection/wave_detection.ino). Er muss verändert werden und in einer neuen Datei abgespeichert werden.
 Um sie mit einem Roboter zu kombinieren, darf es nur ein Mal die Funktion `setup()` und nur ein Mal die Funktion `loop()` geben.
 
 Aufgaben
