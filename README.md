@@ -12,7 +12,12 @@ Diese Roboter gibt es beim Coder Dojo Potsdam.
 
 [Zum Material](roboter)
 
-Robochallenge [mittel]
+Programmieraufgaben
+-------------------
+
+Diese [Programmieraufgaben](programmieraufgaben/arduino) kannst du mit dem Arduino lösen.
+
+Robochallenge [schwer]
 -------------
 
 Fahre die Roboter zum Lautsprecher. Ein Mikrofon sagt dir, wie laut der Ton ist.
