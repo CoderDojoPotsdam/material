@@ -10,6 +10,7 @@ int motor_pin_1 = 4;
 int motor_pin_2 = 5;
 int pwm_pin = 3;
 
+int geschwindigkeit = 100; /* 0 bis 255 */
 
 void setup() {
   pinMode(motor_pin_1, OUTPUT);
