@@ -1,35 +1,41 @@
 
 void loop () {
   fahre_vor();
-  delay(1000);
+  delay(2000);
   fahre_zurueck();
   delay(1000);
 }
 
-int pin_pwm_1 = 9;
-int pin_pwm_2 = 10;
+int motor_pin_1 = 4;
+int motor_pin_2 = 5;
+int pwm_pin = 3;
+
 
 void setup() {
-  pinMode(pin_pwm_1, OUTPUT);
-  pinMode(pin_pwm_2, OUTPUT);
+  pinMode(motor_pin_1, OUTPUT);
+  pinMode(motor_pin_2, OUTPUT);
+  pinMode(pwm_pin,     OUTPUT);
 }
 
 void anhalten() {
-  analogWrite(pin_pwm_1, 0);
-  analogWrite(pin_pwm_2, 0);
+  analogWrite(pwm_pin, geschwindigkeit);
+  digitalWrite(motor_pin_1, LOW);
+  digitalWrite(motor_pin_2, LOW);
   delay(300);
 }
 
 void fahre_vor() {
   anhalten();
-  analogWrite(pin_pwm_1, 0);
-  analogWrite(pin_pwm_2, 255); // 0 <= geschwindigkeit <= 255
+  analogWrite(pwm_pin, geschwindigkeit);
+  digitalWrite(motor_pin_1, LOW);
+  digitalWrite(motor_pin_2, HIGH);
 }
 
 void fahre_zurueck() {
   anhalten();
-  analogWrite(pin_pwm_1, 255); // 0 <= geschwindigkeit <= 255
-  analogWrite(pin_pwm_2, 0);
+  analogWrite(pwm_pin, geschwindigkeit);
+  digitalWrite(motor_pin_1, HIGH);
+  digitalWrite(motor_pin_2, LOW);
 }
 
 
