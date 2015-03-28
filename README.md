@@ -1,7 +1,7 @@
 Material
 ========
 
-Dieses Material wurde für das Coder Dojo Potsdam erstellt.
+Dieses Material wurde für das [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861) erstellt.
 
 Roboter [leicht]
 -------
