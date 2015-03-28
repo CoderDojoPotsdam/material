@@ -1,8 +1,6 @@
 Roboter
 =======
 
-Diese Roboter gibt es beim [Coder Dojo Potsdam](http://zen.coderdojo.com/dojo/861).
-
 John
 ----
 
@@ -13,6 +11,11 @@ Rödel
 -----
 
 [![](roedel/roedel.jpg)](roedel#rödel)
+
+Rödel mit Raspberry Pi
+----------------------
+
+[![](roedelmitraspberrypi/roedelmitraspberrypi.jpg)](roedelmitraspberrypi#rödel)
 
 
 Ehemalige Roboter
