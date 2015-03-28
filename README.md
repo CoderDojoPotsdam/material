@@ -8,7 +8,7 @@ Roboter [leicht]
 
 Diese Roboter gibt es beim Coder Dojo Potsdam.
 
-[![Zu den Robotern](roboter/bilder/roboter.jpg)](roboter)
+[![Zu den Robotern](roboter/bilder/roboter.jpg)](roboter#roboter)
 
 [Zum Material](roboter)
 
