@@ -15,7 +15,7 @@ Diese Roboter gibt es beim Coder Dojo Potsdam.
 Anzeigen
 --------
 
-[![Zu den Anzeigen](Anzeigen/LTS-4848JR/LTS-4848JR.jpg)](Anzeigen#anzeigen)
+[![Zu den Anzeigen](Anzeigen/LTS-4848JR/LTS-4848JR.jpg)](Anzeigen#led-anzeigen)
 
 Programmieraufgaben
 -------------------
