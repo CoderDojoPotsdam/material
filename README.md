@@ -12,6 +12,11 @@ Diese Roboter gibt es beim Coder Dojo Potsdam.
 
 [Zum Material](roboter)
 
+Anzeigen
+--------
+
+[![Zu den Anzeigen](Anzeigen/LTS-4848JR/LTS-4848JR.jpg)](Anzeigen#anzeigen)
+
 Programmieraufgaben
 -------------------
 
