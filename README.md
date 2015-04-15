@@ -27,6 +27,11 @@ Fahre die Roboter zum Lautsprecher. Ein Mikrofon sagt dir, wie laut der Ton ist.
 [Zum Material](tonerkennung)
 
 
+Lizenz
+------
 
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)  
+Dieses Werk von [https://github.com/CoderDojoPotsdam](https://github.com/CoderDojoPotsdam) ist lizenziert unter einer [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/).  
+Sollten Unterordner davon abweichen, wird dies explizit gekennzeichnet.
 
 
