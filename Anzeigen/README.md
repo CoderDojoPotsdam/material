@@ -17,4 +17,4 @@ Weitere Links
 -------------
 
 - Ein [Thread zum Thema](http://www.mikrocontroller.net/topic/354824).
-- Das Sortiment von [Pollin](http://www.pollin.de/shop/dt/ODk5OTkxOTk-/Bauelemente_Bauteile/Sortimente/Aktive_Bauteile/LED_LCD_Fluoreszenz_Anzeigen.html).
+- Das LED-, LCD-, Fluoreszenz-Anzeigen-Sortiment von [Pollin](http://www.pollin.de/shop/dt/ODk5OTkxOTk-/Bauelemente_Bauteile/Sortimente/Aktive_Bauteile/LED_LCD_Fluoreszenz_Anzeigen.html).
