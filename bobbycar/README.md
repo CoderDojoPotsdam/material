@@ -3,8 +3,8 @@ Bobbycar
 
 Dies ist die Beschreibung, wie man das Bobbycar programmieren kann.
 
-Umgebung aufsetzten
--------------------
+Umgebung aufsetzen
+------------------
 
 Das Bobbycar wird mit der Arduino IDE programmiert.
 Diese kannst du [hier runterladen][download-arduino].
