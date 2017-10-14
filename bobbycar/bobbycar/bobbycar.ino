@@ -1,19 +1,19 @@
 /*
 
-  Pins for digital output: 13, 14, 27, 26, 25, 33, 32
+  Pins for digital output: 13, 12, 14, 27, 26, 25, 33, 32
 */
 
 // OUTPUT
 #define LED_RECHTS_VORN_ROT   32
-#define LED_LINKS_VORN_ROT    32
-#define LED_RECHTS_VORN_GRUEN 32
-#define LED_LINKS_VORN_GRUEN  32
-#define LAUTSPRECHER          32
+#define LED_LINKS_VORN_ROT    33
+#define LED_RECHTS_VORN_GRUEN 25
+#define LED_LINKS_VORN_GRUEN  36
+#define LAUTSPRECHER          27
 
 // INPUT
-#define DRUCKKNOPF            A14
-#define KIPPSCHALTER          27
-#define LENKER                36
+#define DRUCKKNOPF            14
+#define KIPPSCHALTER          12
+#define LENKER                13
 
 void setup() {
   // OUTPUT
